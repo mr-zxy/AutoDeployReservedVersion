@@ -1,0 +1,19 @@
+{
+  "name": "scp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scp.js",
+  "scripts": {
+    "build:mac": "export NODE_ENV=production&&node lib/scp.js",
+    "build:win": "set NODE_ENV=production&&node lib/scp.js"
+  },
+  "devDependencies": {
+    "scp2": "^0.5.0",
+    "chalk": "^4.1.2",
+    "ora": "^5.1.0",
+    "ssh2": "^1.10.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
